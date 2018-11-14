@@ -1,0 +1,93 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 75%;
+	margin: auto;
+}
+header {
+	width: 100%;
+	background: red;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+	float: left;
+	width: 100%;
+	background: purple;
+}
+header nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: purple;
+}
+header nav ul li {
+	width: 20%;
+	display: block;
+	float: left;
+}
+header nav ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: orange;
+}
+header nav ul li a:hover {
+	background: pink;
+}
+header nav ul li a:hover {
+	color: black;
+}
+section {
+	height: 500px;
+	background: blue;
+	width: 75%;
+	float: left;
+}
+aside {
+	background: green;
+	width: 25%;
+	float: left;
+	height: 500px;
+}
+aside form input {
+	width: 80%;
+	margin: 10px;
+}
+aside form button {
+	margin: 10px;
+}
+footer {
+	text-align: center;
+	background: gray;
+	color: white;
+	float: left;
+	width: 100%;
+}
+section h4 {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0px 10px 0px;
+}
+section form {
+	width: 80%;
+	margin: auto;
+	padding: 10px 0px 20px 0px;
+}
+section form input {
+	margin-bottom: 5px;
+}
+section form button {
+	margin-top: 5px
+}
+div#results {
+	background: black;
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+	height: 250px;
+}
