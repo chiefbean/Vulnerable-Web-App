@@ -5,7 +5,8 @@ body {
 }
 header {
 	width: 100%;
-	background: red;
+	background: #57585C;
+	color: #D2D3D7;
 }
 header h1 {
 	margin: 0px;
@@ -16,17 +17,17 @@ header h1 {
 header nav {
 	float: left;
 	width: 100%;
-	background: purple;
+	background: #57585C;
 }
 header nav ul {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background: purple;
+	background: #57585C;
 }
 header nav ul li {
-	width: 20%;
+	width: 25%;
 	display: block;
 	float: left;
 }
@@ -34,37 +35,31 @@ header nav ul li a {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	background: orange;
+	background: #57585C;
+	color: #D2D3D7;
 }
 header nav ul li a:hover {
-	background: pink;
-}
-header nav ul li a:hover {
+	background: #E2E9F1;
 	color: black;
 }
 section {
 	height: 500px;
-	background: blue;
+	background: #E2E9F1;
 	width: 75%;
 	float: left;
 }
 aside {
-	background: green;
+	background: #6FD4D0;
 	width: 25%;
 	float: left;
 	height: 500px;
-}
-aside form input {
-	width: 80%;
-	margin: 10px;
-}
-aside form button {
-	margin: 10px;
+	display: flex;
+	align-items: center;
 }
 footer {
 	text-align: center;
-	background: gray;
-	color: white;
+	background: #57585C;
+	color: #D2D3D7;
 	float: left;
 	width: 100%;
 }
@@ -85,9 +80,16 @@ section form button {
 	margin-top: 5px
 }
 div#results {
-	background: black;
 	width: 80%;
 	margin: auto;
 	overflow: auto;
 	height: 250px;
+	border: black 2px dashed;
 }
+aside img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: -100px;
+}
+
