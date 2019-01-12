@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS ceh;
+USE ceh;
+CREATE TABLE IF NOT EXISTS catalog (
+	id int auto_increment,
+	item varchar(50),
+	price real,
+	quantity int,
+	primary key (id)
+);
+INSERT INTO catalog (item, price, quantity) VALUES ('Hammer', 9.99, 10);
+
+CREATE TABLE IF NOT EXISTS users (
+	id int auto_increment,
+	username varchar(50),
+	password varchar(50),
+	name varchar(50),
+	primary key (id)
+);
+INSERT INTO users (username, password, name) VALUES ('jim', 'xxx', 'Jim');
+INSERT INTO users (username, password, name) VALUES ('carl', 'pass', 'Carl');
