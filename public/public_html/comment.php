@@ -20,7 +20,7 @@ if(isset($_SESSION['logged'])) {
 	print("<a href='logout.php'>Welcome ".$_SESSION['name']."! &nbsp;Logout</a>");
 }
 else {
-	print("</p><a href='login.php' style='display:block;float:left;color:#D2D3D7;'>Login</a>");
+	print("<a href='login.php'>Login</a>");
 }
 ?>
 </li>
