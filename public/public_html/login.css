@@ -1,0 +1,19 @@
+form {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 25%;
+	margin: auto;
+	border: 1px black solid;
+	border-radius: 10px;
+	height: 400px;
+}
+form input {
+	display: block;
+	margin: auto;
+}
+img {
+	margin: auto;
+	display: block;
+}
+div#img {
+	width: 100%;
+}

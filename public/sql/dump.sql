@@ -18,3 +18,12 @@ CREATE TABLE IF NOT EXISTS users (
 );
 INSERT INTO users (username, password, name) VALUES ('jim', 'xxx', 'Jim');
 INSERT INTO users (username, password, name) VALUES ('carl', 'pass', 'Carl');
+INSERT INTO users (username, password, name) VALUES ('admin', 'irrelevant', 'Admin');
+
+CREATE TABLE IF NOT EXISTS comments (
+	id int auto_increment,
+	name varchar(50),
+	email varchar(50),
+	message text,
+	primary key(id)
+);

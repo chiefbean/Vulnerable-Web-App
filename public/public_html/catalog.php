@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['page'] = "contact.php";
+?>
 <html>
 <head>
 <title>NOT Vulnerable Web App</title>
@@ -7,9 +11,19 @@
 <header>
 <h1>Template For Web App Lab</h1>
 <nav><ul>
-<li><a href="template.html">Home</a></li>
-<li><a href="catalog.html">Catalog</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="template.php">Home</a></li>
+<li><a href="catalog.php">Catalog</a></li>
+<li><a href="comment.php">Contact</a></li>
+<?php
+if(isset($_SESSION['logged'])) {
+	print("<p style='display:block;float:left;margin: 0 0 0 5px;'>Welcome " . 
+		$_SESSION['name'] . "! &nbsp;</p><a href='logout.php' 
+		style='display:block;float:left;color:#D2D3D7;'>Logout</a>");
+}
+else {
+	print("<a href='login.php' style='display:block;float:left;color:#D2D3D7;'>Login</a>");
+}
+?>
 </ul></nav>
 </header>
 <section>
