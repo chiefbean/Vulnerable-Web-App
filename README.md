@@ -1,7 +1,7 @@
 # Vulnerable-Web-App
 Web app that is vulnerable to SQL-Injection and XSS attacks.
 
-Add text data to template.html
+Add text data to template.php
 
 ---
 
@@ -30,7 +30,7 @@ Start app again
 ---
 
 ### SQL Inject Tutorial
-Navigate to <http://localhost:8080/catalog.html>
+Navigate to <http://localhost:8080/catalog.php>
 
 Enter `Hammer` to see how table shows up
 
@@ -40,13 +40,17 @@ Enter `Hammer' UNION SELECT table_schema, table_name, 1, 1 FROM information_sche
 
 Enter `Hammer' UNION SELECT * FROM users;#` to view information from users table
 
+Click on [Login](http://localhost:8080/login.php)
+
+Use the login information gathered from the users table and you will be able to log in
+
 ---
 
 ### XSS Tutorial
-Navigate to <http://localhost:8080/contact.html>
+Navigate to <http://localhost:8080/contact.php>
 
-All three of the form inputs with output to the page once button is pressed
+The name and message inputs of the form with output to the page, every time it is loaded, once button is pressed
 
-Enter into any of the boxes `<button onclick="alert('test');">Test</button>` to test for XSS Vulnerability
+Enter into either the name or message box `<script>alert("hacked");</script>` to test for XSS Vulnerability
 
-*Insert any script into the onclick portion of the button to have it run when the button is clicked*
+*Insert any script the either of the two boxes and the script will be run everytime the page loads*
