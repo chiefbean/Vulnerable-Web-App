@@ -47,7 +47,7 @@ Use the login information gathered from the users table and you will be able to 
 ---
 
 ### XSS Tutorial
-Navigate to <http://localhost:8080/contact.php>
+Navigate to <http://localhost:8080/comment.php>
 
 The name and message inputs of the form with output to the page, every time it is loaded, once button is pressed
 
