@@ -33,7 +33,7 @@ else {
 <img src="images/300.jpeg" alt="Random Image" />
 </aside>
 <footer>
-Vulnerable Web App &copy; Steven Karschnia 2018
+Vulnerable Web App &copy; Steven Karschnia 2019
 </footer>
 </body>
 </html>
