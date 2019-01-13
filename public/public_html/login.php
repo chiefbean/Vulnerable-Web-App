@@ -33,7 +33,7 @@ if((isset($_POST["username"]) && isset($_POST["password"]))) {
 <form action="login.php" method="POST">
 	<div id="img"><img src="images/index.jpeg" width="225" /></div>
 	<input type="text" placeholder="username" name="username"/><br/>
-	<input type="text" placeholder="password" name="password"/><br/>
+	<input type="password" placeholder="password" name="password"/><br/>
 	<input type="submit" value="Login" /><br/>
 </form>
 
