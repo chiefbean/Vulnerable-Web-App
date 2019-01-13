@@ -103,3 +103,7 @@ p#output {
 	float: left;
 	width: 30%;
 }
+header nav ul li#login a:hover {
+	background: #A3E3E1;
+	color: black;
+}

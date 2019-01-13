@@ -14,16 +14,16 @@ $_SESSION['page'] = "template.php";
 <li><a href="template.php">Home</a></li>
 <li><a href="catalog.php">Catalog</a></li>
 <li><a href="comment.php">Comment</a></li>
+<li id="login">
 <?php
 if(isset($_SESSION['logged'])) {
-	print("<p style='display:block;float:left;margin: 0 0 0 5px;'>Welcome " . 
-		$_SESSION['name'] . "! &nbsp;</p><a href='logout.php' 
-		style='display:block;float:left;color:#D2D3D7;'>Logout</a>");
+	print("<a href='logout.php'>Welcome ".$_SESSION['name']."! &nbsp;Logout</a>");
 }
 else {
-	print("<a href='login.php' style='display:block;float:left;color:#D2D3D7;'>Login</a>");
+	print("</p><a href='login.php' style='display:block;float:left;color:#D2D3D7;'>Login</a>");
 }
 ?>
+</li>
 </ul></nav>
 </header>
 <section>
