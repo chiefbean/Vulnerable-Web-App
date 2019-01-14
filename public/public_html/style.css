@@ -2,11 +2,14 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	width: 75%;
 	margin: auto;
+	box-shadow: 10px 0 8px grey, -10px 0 8px grey;
 }
 header {
+	height: 10.5%;
 	width: 100%;
 	background: #57585C;
 	color: #D2D3D7;
+	margin-bottom: 5px;
 }
 header h1 {
 	margin: 0px;
@@ -37,13 +40,14 @@ header nav ul li a {
 	text-decoration: none;
 	background: #57585C;
 	color: #D2D3D7;
+	padding-bottom: 2px;
 }
 header nav ul li a:hover {
 	background: #E2E9F1;
 	color: black;
 }
 section {
-	height: 500px;
+	height: 86%;
 	background: #E2E9F1;
 	width: 75%;
 	float: left;
@@ -52,7 +56,7 @@ aside {
 	background: #A3E3E1;
 	width: 25%;
 	float: left;
-	height: 500px;
+	height: 86%;
 	display: flex;
 	align-items: center;
 }

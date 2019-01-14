@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['page'] = "contact.php";
+$_SESSION['page'] = "catalog.php";
 ?>
 <html>
 <head>
