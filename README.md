@@ -42,7 +42,7 @@ Enter `Hammer' UNION SELECT * FROM users;#` to view information from users table
 
 Click on [Login](http://localhost:8080/login.php)
 
-Use the login information gathered from the users table and you will be able to log in
+Enter into either the username or password field `'OR'1'='1';#` to login to the webpage without verification
 
 ---
 
